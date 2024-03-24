@@ -1,3 +1,3 @@
-def call() {
-  sh 'echo hello from me'
+def call(String param1) {
+  sh 'echo hello from ${param1}'
 }
